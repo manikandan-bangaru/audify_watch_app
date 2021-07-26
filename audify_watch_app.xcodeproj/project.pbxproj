@@ -1,0 +1,1196 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BF869CB26AEF3F800F6654E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF869CA26AEF3F800F6654E /* AppDelegate.swift */; };
+		1BF869CD26AEF3F800F6654E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF869CC26AEF3F800F6654E /* SceneDelegate.swift */; };
+		1BF869CF26AEF3F800F6654E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF869CE26AEF3F800F6654E /* ViewController.swift */; };
+		1BF869D226AEF3F800F6654E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF869D026AEF3F800F6654E /* Main.storyboard */; };
+		1BF869D426AEF3FA00F6654E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF869D326AEF3FA00F6654E /* Assets.xcassets */; };
+		1BF869D726AEF3FA00F6654E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF869D526AEF3FA00F6654E /* LaunchScreen.storyboard */; };
+		1BF869E226AEF3FA00F6654E /* audify_watch_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF869E126AEF3FA00F6654E /* audify_watch_appTests.swift */; };
+		1BF869EC26AEF3FA00F6654E /* audify_watch_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF869EB26AEF3FA00F6654E /* audify_watch_appUITests.swift */; };
+		1BF869F026AEF3FA00F6654E /* audify_watch_app WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1BF869EF26AEF3FA00F6654E /* audify_watch_app WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1BF869F626AEF3FA00F6654E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF869F426AEF3FA00F6654E /* Interface.storyboard */; };
+		1BF869F826AEF3FB00F6654E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF869F726AEF3FB00F6654E /* Assets.xcassets */; };
+		1BF869FE26AEF3FC00F6654E /* audify_watch_app WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1BF869FD26AEF3FC00F6654E /* audify_watch_app WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1BF86A0326AEF3FC00F6654E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF86A0226AEF3FC00F6654E /* InterfaceController.swift */; };
+		1BF86A0526AEF3FC00F6654E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF86A0426AEF3FC00F6654E /* ExtensionDelegate.swift */; };
+		1BF86A0726AEF3FC00F6654E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF86A0626AEF3FC00F6654E /* NotificationController.swift */; };
+		1BF86A0926AEF3FC00F6654E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF86A0826AEF3FC00F6654E /* ComplicationController.swift */; };
+		1BF86A0B26AEF3FD00F6654E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF86A0A26AEF3FD00F6654E /* Assets.xcassets */; };
+		1BF86A1726AEF3FD00F6654E /* audify_watch_app_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF86A1626AEF3FD00F6654E /* audify_watch_app_WatchKit_AppTests.swift */; };
+		1BF86A2126AEF3FD00F6654E /* audify_watch_app_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF86A2026AEF3FD00F6654E /* audify_watch_app_WatchKit_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BF869DE26AEF3FA00F6654E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BF869BF26AEF3F800F6654E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF869C626AEF3F800F6654E;
+			remoteInfo = audify_watch_app;
+		};
+		1BF869E826AEF3FA00F6654E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BF869BF26AEF3F800F6654E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF869C626AEF3F800F6654E;
+			remoteInfo = audify_watch_app;
+		};
+		1BF869F126AEF3FA00F6654E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BF869BF26AEF3F800F6654E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF869EE26AEF3FA00F6654E;
+			remoteInfo = "audify_watch_app WatchKit App";
+		};
+		1BF869FF26AEF3FC00F6654E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BF869BF26AEF3F800F6654E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF869FC26AEF3FC00F6654E;
+			remoteInfo = "audify_watch_app WatchKit Extension";
+		};
+		1BF86A1326AEF3FD00F6654E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BF869BF26AEF3F800F6654E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF869FC26AEF3FC00F6654E;
+			remoteInfo = "audify_watch_app WatchKit Extension";
+		};
+		1BF86A1D26AEF3FD00F6654E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BF869BF26AEF3F800F6654E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF869EE26AEF3FA00F6654E;
+			remoteInfo = "audify_watch_app WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1BF86A2726AEF3FD00F6654E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1BF869FE26AEF3FC00F6654E /* audify_watch_app WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF86A2B26AEF3FD00F6654E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1BF869F026AEF3FA00F6654E /* audify_watch_app WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1BF869C726AEF3F800F6654E /* audify_watch_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = audify_watch_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF869CA26AEF3F800F6654E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BF869CC26AEF3F800F6654E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1BF869CE26AEF3F800F6654E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BF869D126AEF3F800F6654E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BF869D326AEF3FA00F6654E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BF869D626AEF3FA00F6654E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BF869D826AEF3FA00F6654E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF869DD26AEF3FA00F6654E /* audify_watch_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = audify_watch_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF869E126AEF3FA00F6654E /* audify_watch_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audify_watch_appTests.swift; sourceTree = "<group>"; };
+		1BF869E726AEF3FA00F6654E /* audify_watch_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = audify_watch_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF869EB26AEF3FA00F6654E /* audify_watch_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audify_watch_appUITests.swift; sourceTree = "<group>"; };
+		1BF869EF26AEF3FA00F6654E /* audify_watch_app WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "audify_watch_app WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF869F526AEF3FA00F6654E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1BF869F726AEF3FB00F6654E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BF869FD26AEF3FC00F6654E /* audify_watch_app WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "audify_watch_app WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF86A0226AEF3FC00F6654E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1BF86A0426AEF3FC00F6654E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1BF86A0626AEF3FC00F6654E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1BF86A0826AEF3FC00F6654E /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		1BF86A0A26AEF3FD00F6654E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BF86A0C26AEF3FD00F6654E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF86A0D26AEF3FD00F6654E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1BF86A1226AEF3FD00F6654E /* audify_watch_app WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "audify_watch_app WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF86A1626AEF3FD00F6654E /* audify_watch_app_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audify_watch_app_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		1BF86A1C26AEF3FD00F6654E /* audify_watch_app WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "audify_watch_app WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF86A2026AEF3FD00F6654E /* audify_watch_app_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audify_watch_app_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BF869C426AEF3F800F6654E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF869DA26AEF3FA00F6654E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF869E426AEF3FA00F6654E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF869FA26AEF3FC00F6654E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF86A0F26AEF3FD00F6654E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF86A1926AEF3FD00F6654E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BF869BE26AEF3F800F6654E = {
+			isa = PBXGroup;
+			children = (
+				1BF869C926AEF3F800F6654E /* audify_watch_app */,
+				1BF869E026AEF3FA00F6654E /* audify_watch_appTests */,
+				1BF869EA26AEF3FA00F6654E /* audify_watch_appUITests */,
+				1BF869F326AEF3FA00F6654E /* audify_watch_app WatchKit App */,
+				1BF86A0126AEF3FC00F6654E /* audify_watch_app WatchKit Extension */,
+				1BF86A1526AEF3FD00F6654E /* audify_watch_app WatchKit AppTests */,
+				1BF86A1F26AEF3FD00F6654E /* audify_watch_app WatchKit AppUITests */,
+				1BF869C826AEF3F800F6654E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BF869C826AEF3F800F6654E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BF869C726AEF3F800F6654E /* audify_watch_app.app */,
+				1BF869DD26AEF3FA00F6654E /* audify_watch_appTests.xctest */,
+				1BF869E726AEF3FA00F6654E /* audify_watch_appUITests.xctest */,
+				1BF869EF26AEF3FA00F6654E /* audify_watch_app WatchKit App.app */,
+				1BF869FD26AEF3FC00F6654E /* audify_watch_app WatchKit Extension.appex */,
+				1BF86A1226AEF3FD00F6654E /* audify_watch_app WatchKit AppTests.xctest */,
+				1BF86A1C26AEF3FD00F6654E /* audify_watch_app WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BF869C926AEF3F800F6654E /* audify_watch_app */ = {
+			isa = PBXGroup;
+			children = (
+				1BF869CA26AEF3F800F6654E /* AppDelegate.swift */,
+				1BF869CC26AEF3F800F6654E /* SceneDelegate.swift */,
+				1BF869CE26AEF3F800F6654E /* ViewController.swift */,
+				1BF869D026AEF3F800F6654E /* Main.storyboard */,
+				1BF869D326AEF3FA00F6654E /* Assets.xcassets */,
+				1BF869D526AEF3FA00F6654E /* LaunchScreen.storyboard */,
+				1BF869D826AEF3FA00F6654E /* Info.plist */,
+			);
+			path = audify_watch_app;
+			sourceTree = "<group>";
+		};
+		1BF869E026AEF3FA00F6654E /* audify_watch_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BF869E126AEF3FA00F6654E /* audify_watch_appTests.swift */,
+			);
+			path = audify_watch_appTests;
+			sourceTree = "<group>";
+		};
+		1BF869EA26AEF3FA00F6654E /* audify_watch_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BF869EB26AEF3FA00F6654E /* audify_watch_appUITests.swift */,
+			);
+			path = audify_watch_appUITests;
+			sourceTree = "<group>";
+		};
+		1BF869F326AEF3FA00F6654E /* audify_watch_app WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1BF869F426AEF3FA00F6654E /* Interface.storyboard */,
+				1BF869F726AEF3FB00F6654E /* Assets.xcassets */,
+			);
+			path = "audify_watch_app WatchKit App";
+			sourceTree = "<group>";
+		};
+		1BF86A0126AEF3FC00F6654E /* audify_watch_app WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1BF86A0226AEF3FC00F6654E /* InterfaceController.swift */,
+				1BF86A0426AEF3FC00F6654E /* ExtensionDelegate.swift */,
+				1BF86A0626AEF3FC00F6654E /* NotificationController.swift */,
+				1BF86A0826AEF3FC00F6654E /* ComplicationController.swift */,
+				1BF86A0A26AEF3FD00F6654E /* Assets.xcassets */,
+				1BF86A0C26AEF3FD00F6654E /* Info.plist */,
+				1BF86A0D26AEF3FD00F6654E /* PushNotificationPayload.apns */,
+			);
+			path = "audify_watch_app WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1BF86A1526AEF3FD00F6654E /* audify_watch_app WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BF86A1626AEF3FD00F6654E /* audify_watch_app_WatchKit_AppTests.swift */,
+			);
+			path = "audify_watch_app WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		1BF86A1F26AEF3FD00F6654E /* audify_watch_app WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BF86A2026AEF3FD00F6654E /* audify_watch_app_WatchKit_AppUITests.swift */,
+			);
+			path = "audify_watch_app WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BF869C626AEF3F800F6654E /* audify_watch_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF86A2C26AEF3FD00F6654E /* Build configuration list for PBXNativeTarget "audify_watch_app" */;
+			buildPhases = (
+				1BF869C326AEF3F800F6654E /* Sources */,
+				1BF869C426AEF3F800F6654E /* Frameworks */,
+				1BF869C526AEF3F800F6654E /* Resources */,
+				1BF86A2B26AEF3FD00F6654E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BF869F226AEF3FA00F6654E /* PBXTargetDependency */,
+			);
+			name = audify_watch_app;
+			productName = audify_watch_app;
+			productReference = 1BF869C726AEF3F800F6654E /* audify_watch_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BF869DC26AEF3FA00F6654E /* audify_watch_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF86A2F26AEF3FD00F6654E /* Build configuration list for PBXNativeTarget "audify_watch_appTests" */;
+			buildPhases = (
+				1BF869D926AEF3FA00F6654E /* Sources */,
+				1BF869DA26AEF3FA00F6654E /* Frameworks */,
+				1BF869DB26AEF3FA00F6654E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BF869DF26AEF3FA00F6654E /* PBXTargetDependency */,
+			);
+			name = audify_watch_appTests;
+			productName = audify_watch_appTests;
+			productReference = 1BF869DD26AEF3FA00F6654E /* audify_watch_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BF869E626AEF3FA00F6654E /* audify_watch_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF86A3226AEF3FD00F6654E /* Build configuration list for PBXNativeTarget "audify_watch_appUITests" */;
+			buildPhases = (
+				1BF869E326AEF3FA00F6654E /* Sources */,
+				1BF869E426AEF3FA00F6654E /* Frameworks */,
+				1BF869E526AEF3FA00F6654E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BF869E926AEF3FA00F6654E /* PBXTargetDependency */,
+			);
+			name = audify_watch_appUITests;
+			productName = audify_watch_appUITests;
+			productReference = 1BF869E726AEF3FA00F6654E /* audify_watch_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1BF869EE26AEF3FA00F6654E /* audify_watch_app WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF86A2826AEF3FD00F6654E /* Build configuration list for PBXNativeTarget "audify_watch_app WatchKit App" */;
+			buildPhases = (
+				1BF869ED26AEF3FA00F6654E /* Resources */,
+				1BF86A2726AEF3FD00F6654E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BF86A0026AEF3FC00F6654E /* PBXTargetDependency */,
+			);
+			name = "audify_watch_app WatchKit App";
+			productName = "audify_watch_app WatchKit App";
+			productReference = 1BF869EF26AEF3FA00F6654E /* audify_watch_app WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1BF869FC26AEF3FC00F6654E /* audify_watch_app WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF86A2426AEF3FD00F6654E /* Build configuration list for PBXNativeTarget "audify_watch_app WatchKit Extension" */;
+			buildPhases = (
+				1BF869F926AEF3FC00F6654E /* Sources */,
+				1BF869FA26AEF3FC00F6654E /* Frameworks */,
+				1BF869FB26AEF3FC00F6654E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "audify_watch_app WatchKit Extension";
+			productName = "audify_watch_app WatchKit Extension";
+			productReference = 1BF869FD26AEF3FC00F6654E /* audify_watch_app WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		1BF86A1126AEF3FD00F6654E /* audify_watch_app WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF86A3526AEF3FD00F6654E /* Build configuration list for PBXNativeTarget "audify_watch_app WatchKit AppTests" */;
+			buildPhases = (
+				1BF86A0E26AEF3FD00F6654E /* Sources */,
+				1BF86A0F26AEF3FD00F6654E /* Frameworks */,
+				1BF86A1026AEF3FD00F6654E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BF86A1426AEF3FD00F6654E /* PBXTargetDependency */,
+			);
+			name = "audify_watch_app WatchKit AppTests";
+			productName = "audify_watch_app WatchKit AppTests";
+			productReference = 1BF86A1226AEF3FD00F6654E /* audify_watch_app WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BF86A1B26AEF3FD00F6654E /* audify_watch_app WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF86A3826AEF3FD00F6654E /* Build configuration list for PBXNativeTarget "audify_watch_app WatchKit AppUITests" */;
+			buildPhases = (
+				1BF86A1826AEF3FD00F6654E /* Sources */,
+				1BF86A1926AEF3FD00F6654E /* Frameworks */,
+				1BF86A1A26AEF3FD00F6654E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BF86A1E26AEF3FD00F6654E /* PBXTargetDependency */,
+			);
+			name = "audify_watch_app WatchKit AppUITests";
+			productName = "audify_watch_app WatchKit AppUITests";
+			productReference = 1BF86A1C26AEF3FD00F6654E /* audify_watch_app WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BF869BF26AEF3F800F6654E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					1BF869C626AEF3F800F6654E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					1BF869DC26AEF3FA00F6654E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1BF869C626AEF3F800F6654E;
+					};
+					1BF869E626AEF3FA00F6654E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1BF869C626AEF3F800F6654E;
+					};
+					1BF869EE26AEF3FA00F6654E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					1BF869FC26AEF3FC00F6654E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					1BF86A1126AEF3FD00F6654E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1BF869FC26AEF3FC00F6654E;
+					};
+					1BF86A1B26AEF3FD00F6654E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1BF869EE26AEF3FA00F6654E;
+					};
+				};
+			};
+			buildConfigurationList = 1BF869C226AEF3F800F6654E /* Build configuration list for PBXProject "audify_watch_app" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BF869BE26AEF3F800F6654E;
+			productRefGroup = 1BF869C826AEF3F800F6654E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BF869C626AEF3F800F6654E /* audify_watch_app */,
+				1BF869DC26AEF3FA00F6654E /* audify_watch_appTests */,
+				1BF869E626AEF3FA00F6654E /* audify_watch_appUITests */,
+				1BF869EE26AEF3FA00F6654E /* audify_watch_app WatchKit App */,
+				1BF869FC26AEF3FC00F6654E /* audify_watch_app WatchKit Extension */,
+				1BF86A1126AEF3FD00F6654E /* audify_watch_app WatchKit AppTests */,
+				1BF86A1B26AEF3FD00F6654E /* audify_watch_app WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BF869C526AEF3F800F6654E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF869D726AEF3FA00F6654E /* LaunchScreen.storyboard in Resources */,
+				1BF869D426AEF3FA00F6654E /* Assets.xcassets in Resources */,
+				1BF869D226AEF3F800F6654E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF869DB26AEF3FA00F6654E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF869E526AEF3FA00F6654E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF869ED26AEF3FA00F6654E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF869F826AEF3FB00F6654E /* Assets.xcassets in Resources */,
+				1BF869F626AEF3FA00F6654E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF869FB26AEF3FC00F6654E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF86A0B26AEF3FD00F6654E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF86A1026AEF3FD00F6654E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF86A1A26AEF3FD00F6654E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BF869C326AEF3F800F6654E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF869CF26AEF3F800F6654E /* ViewController.swift in Sources */,
+				1BF869CB26AEF3F800F6654E /* AppDelegate.swift in Sources */,
+				1BF869CD26AEF3F800F6654E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF869D926AEF3FA00F6654E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF869E226AEF3FA00F6654E /* audify_watch_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF869E326AEF3FA00F6654E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF869EC26AEF3FA00F6654E /* audify_watch_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF869F926AEF3FC00F6654E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF86A0726AEF3FC00F6654E /* NotificationController.swift in Sources */,
+				1BF86A0926AEF3FC00F6654E /* ComplicationController.swift in Sources */,
+				1BF86A0526AEF3FC00F6654E /* ExtensionDelegate.swift in Sources */,
+				1BF86A0326AEF3FC00F6654E /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF86A0E26AEF3FD00F6654E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF86A1726AEF3FD00F6654E /* audify_watch_app_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF86A1826AEF3FD00F6654E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF86A2126AEF3FD00F6654E /* audify_watch_app_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BF869DF26AEF3FA00F6654E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BF869C626AEF3F800F6654E /* audify_watch_app */;
+			targetProxy = 1BF869DE26AEF3FA00F6654E /* PBXContainerItemProxy */;
+		};
+		1BF869E926AEF3FA00F6654E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BF869C626AEF3F800F6654E /* audify_watch_app */;
+			targetProxy = 1BF869E826AEF3FA00F6654E /* PBXContainerItemProxy */;
+		};
+		1BF869F226AEF3FA00F6654E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BF869EE26AEF3FA00F6654E /* audify_watch_app WatchKit App */;
+			targetProxy = 1BF869F126AEF3FA00F6654E /* PBXContainerItemProxy */;
+		};
+		1BF86A0026AEF3FC00F6654E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BF869FC26AEF3FC00F6654E /* audify_watch_app WatchKit Extension */;
+			targetProxy = 1BF869FF26AEF3FC00F6654E /* PBXContainerItemProxy */;
+		};
+		1BF86A1426AEF3FD00F6654E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BF869FC26AEF3FC00F6654E /* audify_watch_app WatchKit Extension */;
+			targetProxy = 1BF86A1326AEF3FD00F6654E /* PBXContainerItemProxy */;
+		};
+		1BF86A1E26AEF3FD00F6654E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BF869EE26AEF3FA00F6654E /* audify_watch_app WatchKit App */;
+			targetProxy = 1BF86A1D26AEF3FD00F6654E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BF869D026AEF3F800F6654E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BF869D126AEF3F800F6654E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BF869D526AEF3FA00F6654E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BF869D626AEF3FA00F6654E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1BF869F426AEF3FA00F6654E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BF869F526AEF3FA00F6654E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BF86A2226AEF3FD00F6654E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BF86A2326AEF3FD00F6654E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1BF86A2526AEF3FD00F6654E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "audify_watch_app WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "audify_watch_app WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.watch.app.audify-watch-app.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		1BF86A2626AEF3FD00F6654E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "audify_watch_app WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "audify_watch_app WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.watch.app.audify-watch-app.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		1BF86A2926AEF3FD00F6654E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = audify_watch_app_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "audify_watch_app WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.github.watch.app.audify-watch-app";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.watch.app.audify-watch-app.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		1BF86A2A26AEF3FD00F6654E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = audify_watch_app_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "audify_watch_app WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.github.watch.app.audify-watch-app";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.watch.app.audify-watch-app.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		1BF86A2D26AEF3FD00F6654E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = audify_watch_app/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.watch.app.audify-watch-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BF86A2E26AEF3FD00F6654E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = audify_watch_app/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.watch.app.audify-watch-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BF86A3026AEF3FD00F6654E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.watch.app.audify-watch-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/audify_watch_app.app/audify_watch_app";
+			};
+			name = Debug;
+		};
+		1BF86A3126AEF3FD00F6654E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.watch.app.audify-watch-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/audify_watch_app.app/audify_watch_app";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BF86A3326AEF3FD00F6654E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.watch.app.audify-watch-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = audify_watch_app;
+			};
+			name = Debug;
+		};
+		1BF86A3426AEF3FD00F6654E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.watch.app.audify-watch-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = audify_watch_app;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BF86A3626AEF3FD00F6654E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.watch.app.audify-watch-app-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/audify_watch_app WatchKit Extension.appex/audify_watch_app WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		1BF86A3726AEF3FD00F6654E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.watch.app.audify-watch-app-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/audify_watch_app WatchKit Extension.appex/audify_watch_app WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		1BF86A3926AEF3FD00F6654E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.watch.app.audify-watch-app-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "audify_watch_app WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		1BF86A3A26AEF3FD00F6654E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.watch.app.audify-watch-app-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "audify_watch_app WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BF869C226AEF3F800F6654E /* Build configuration list for PBXProject "audify_watch_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF86A2226AEF3FD00F6654E /* Debug */,
+				1BF86A2326AEF3FD00F6654E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BF86A2426AEF3FD00F6654E /* Build configuration list for PBXNativeTarget "audify_watch_app WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF86A2526AEF3FD00F6654E /* Debug */,
+				1BF86A2626AEF3FD00F6654E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BF86A2826AEF3FD00F6654E /* Build configuration list for PBXNativeTarget "audify_watch_app WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF86A2926AEF3FD00F6654E /* Debug */,
+				1BF86A2A26AEF3FD00F6654E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BF86A2C26AEF3FD00F6654E /* Build configuration list for PBXNativeTarget "audify_watch_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF86A2D26AEF3FD00F6654E /* Debug */,
+				1BF86A2E26AEF3FD00F6654E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BF86A2F26AEF3FD00F6654E /* Build configuration list for PBXNativeTarget "audify_watch_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF86A3026AEF3FD00F6654E /* Debug */,
+				1BF86A3126AEF3FD00F6654E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BF86A3226AEF3FD00F6654E /* Build configuration list for PBXNativeTarget "audify_watch_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF86A3326AEF3FD00F6654E /* Debug */,
+				1BF86A3426AEF3FD00F6654E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BF86A3526AEF3FD00F6654E /* Build configuration list for PBXNativeTarget "audify_watch_app WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF86A3626AEF3FD00F6654E /* Debug */,
+				1BF86A3726AEF3FD00F6654E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BF86A3826AEF3FD00F6654E /* Build configuration list for PBXNativeTarget "audify_watch_app WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF86A3926AEF3FD00F6654E /* Debug */,
+				1BF86A3A26AEF3FD00F6654E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BF869BF26AEF3F800F6654E /* Project object */;
+}
