@@ -1,16 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14256" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="19115.3" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14243"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14219"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19107.5"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="19026"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller hidesWhenLoading="NO" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="audify_watch_app_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="8CY-26-qqP">
+                            <items>
+                                <tableRow identifier="songRow" id="QKF-9a-00K" customClass="SongsRow" customModule="audify_watch_app_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="viS-la-C93">
+                                        <items>
+                                            <label alignment="left" text="songName" id="HeN-zI-Wz6"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="songNameLabel" destination="HeN-zI-Wz6" id="Alr-Nh-PpC"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="145" y="410"/>
+        </scene>
+        <!--MusicController-->
+        <scene sceneID="U8S-87-WXx">
+            <objects>
+                <controller identifier="MusicController" id="xsr-5A-2lg" customClass="MusicController" customModule="audify_watch_app_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="20" alignment="left" id="Ive-Ds-hAm">
+                            <items>
+                                <label width="1" alignment="left" text="Label" textAlignment="center" id="zBf-XC-f6c"/>
+                            </items>
+                        </group>
+                        <group height="50" alignment="center" verticalAlignment="center" id="7eV-ag-84V">
+                            <items>
+                                <button width="36" height="36" alignment="left" id="KVJ-Q0-Hgb">
+                                    <imageReference key="backgroundImage" image="backward.fill" catalog="system"/>
+                                    <connections>
+                                        <action selector="GoBack" destination="xsr-5A-2lg" id="7dT-q7-4tW"/>
+                                    </connections>
+                                </button>
+                                <button width="36" height="34" alignment="left" id="AoD-k3-rno">
+                                    <imageReference key="backgroundImage" image="pause.fill" catalog="system"/>
+                                    <connections>
+                                        <action selector="pause" destination="xsr-5A-2lg" id="6b6-5C-zsE"/>
+                                    </connections>
+                                </button>
+                                <button width="36" height="36" alignment="left" id="btM-EE-fp5">
+                                    <imageReference key="backgroundImage" image="forward.fill" catalog="system"/>
+                                    <connections>
+                                        <action selector="goForward" destination="xsr-5A-2lg" id="y8z-LV-8m2"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="songName" destination="zBf-XC-f6c" id="pcz-sp-5ny"/>
+                        <outlet property="tableView" destination="8CY-26-qqP" id="Y7t-MJ-wTC"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="192" y="114"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -32,16 +92,21 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="audify_watch_app_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="Niz-AI-uX2">
             <objects>
-                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="audify_watch_app_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="345"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="backward.fill" catalog="system" width="128" height="77"/>
+        <image name="forward.fill" catalog="system" width="128" height="77"/>
+        <image name="pause.fill" catalog="system" width="119" height="128"/>
+    </resources>
 </document>

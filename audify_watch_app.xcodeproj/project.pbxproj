@@ -26,6 +26,8 @@
 		1BF86A0B26AEF3FD00F6654E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF86A0A26AEF3FD00F6654E /* Assets.xcassets */; };
 		1BF86A1726AEF3FD00F6654E /* audify_watch_app_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF86A1626AEF3FD00F6654E /* audify_watch_app_WatchKit_AppTests.swift */; };
 		1BF86A2126AEF3FD00F6654E /* audify_watch_app_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF86A2026AEF3FD00F6654E /* audify_watch_app_WatchKit_AppUITests.swift */; };
+		1BF86A3C26AEF78B00F6654E /* MusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF86A3B26AEF78B00F6654E /* MusicController.swift */; };
+		1BF86A3E26AEF84F00F6654E /* SongsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF86A3D26AEF84F00F6654E /* SongsRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +128,8 @@
 		1BF86A1626AEF3FD00F6654E /* audify_watch_app_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audify_watch_app_WatchKit_AppTests.swift; sourceTree = "<group>"; };
 		1BF86A1C26AEF3FD00F6654E /* audify_watch_app WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "audify_watch_app WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF86A2026AEF3FD00F6654E /* audify_watch_app_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audify_watch_app_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		1BF86A3B26AEF78B00F6654E /* MusicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicController.swift; sourceTree = "<group>"; };
+		1BF86A3D26AEF84F00F6654E /* SongsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,7 +248,9 @@
 		1BF86A0126AEF3FC00F6654E /* audify_watch_app WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1BF86A3D26AEF84F00F6654E /* SongsRow.swift */,
 				1BF86A0226AEF3FC00F6654E /* InterfaceController.swift */,
+				1BF86A3B26AEF78B00F6654E /* MusicController.swift */,
 				1BF86A0426AEF3FC00F6654E /* ExtensionDelegate.swift */,
 				1BF86A0626AEF3FC00F6654E /* NotificationController.swift */,
 				1BF86A0826AEF3FC00F6654E /* ComplicationController.swift */,
@@ -550,6 +556,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BF86A0726AEF3FC00F6654E /* NotificationController.swift in Sources */,
+				1BF86A3E26AEF84F00F6654E /* SongsRow.swift in Sources */,
+				1BF86A3C26AEF78B00F6654E /* MusicController.swift in Sources */,
 				1BF86A0926AEF3FC00F6654E /* ComplicationController.swift in Sources */,
 				1BF86A0526AEF3FC00F6654E /* ExtensionDelegate.swift in Sources */,
 				1BF86A0326AEF3FC00F6654E /* InterfaceController.swift in Sources */,
